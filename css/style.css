@@ -1026,7 +1026,7 @@ li:hover{
     }
     .res{
         width: 175px;
-        margin-left: -68px;
+        margin-left: -47px;
         margin-top: -28%;
     }
     .para {
@@ -1038,20 +1038,22 @@ li:hover{
         width: 70%;
     }
     .mobile {
-        font-size: 19px;
-        margin-left: -62px;
-        width: 56%;
-    }
-    .inp {
-        left: 14%;
-        width: 58%;
-        position: absolute;
-        top: 204px;
+        font-size: 21px;
+        margin-left: -36px;
+        margin-top: 3.5%;
+        width: 63%;
         z-index: 1;
     }
+    .inp {
+        left: 11%;
+        width: 69%;
+        position: absolute;
+        top: 220px;
+        z-index: 0;
+    }
     .bt {
-        margin-left: -12%;
-        margin-top: 22px;
+        margin-left: -9%;
+        margin-top: -5px;
         cursor: pointer;
     }
     .txt {
@@ -1061,12 +1063,12 @@ li:hover{
         margin-left: -13%;
         cursor: pointer;
     }
-    .log{
+    .log {
         height: 130px;
-    width: 130px;
-    position: absolute;
-    top: 22rem;
-    left: 6rem;
+        width: 130px;
+        position: absolute;
+        top: 21.5rem;
+        left: 3rem;
     }
     .banner_section {
         width: 100%;
@@ -1080,7 +1082,7 @@ li:hover{
         margin-top: 66%;
     top: 15%;
     height: 413px;
-    width: 167%;
+    width: 100%;
     }
     .img-1 {
         position: absolute;
@@ -1116,15 +1118,15 @@ li:hover{
         width: 250px;
     }
     .one{
-        margin-left: -33px;
+        margin-left: -18px;
         margin-top: 23%;
     }
     .two{
-        margin-left: 134px;
+        margin-left: 150px;
         margin-top: -17%;
     }
     .three{
-        margin-left: -33px;
+        margin-left: -18px;
     margin-top: -30%;
     }
     .ones{
@@ -1138,6 +1140,7 @@ li:hover{
     .threes{
         margin-left: -22%;
         margin-top: -35px;
+        width: 126%;
     }
     .twoos{
         margin-left: 29.5%;
@@ -1198,9 +1201,17 @@ li:hover{
     .fire {
         position: absolute;
     top: 27rem;
-    left: 12rem;
+    left: 8rem;
     width: 5rem;
     height: 4rem;
     }
+    .image_2 {
+        width: 104%;
+        float: left;
+        padding-top: 50px;
+        position: relative;
+        text-align: center;
+    }
+    
     
   }
