@@ -3,12 +3,12 @@
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @font-face {
 src: url("../fonts/Righteous-Regular.ttf");
 src: url("../fonts/Lato-Regular.ttf");
-}
+} */
 /*****---------------------------------------- 
 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -47,6 +47,8 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     font-family: MoGa-ReZeKi-DuA;
+
 }
 
 a {
@@ -88,8 +90,19 @@ h3 {
     padding-top: 258px;
     font-size: 25px;
     color: white;
+    width: 103%;
 }
-
+.ones{
+    padding-top: 250px;
+}
+.twos{
+    padding-top: 250px;
+}
+.threes{
+    padding-top: 270px;
+    width: 123%;
+    margin-left: -19px;
+}
 h4 {
      font-size: 16px
 }
@@ -99,7 +112,7 @@ h5 {
 }
 
 h6 {
-     font-size: 13px
+     font-size: 19px
 }
 
 *,
@@ -134,12 +147,13 @@ ol {
 }
 
 p {
-    padding-top: 104px;
-    margin: 20px;
+    padding-top: 73px;
+    /* margin: 20px; */
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
     font-size: 17px;
+    width: 100%;
 }
 
 a {
@@ -231,8 +245,8 @@ button {
     width: 50%;
     float: left;
 }
-.navbar {
-    padding: 20px 30px;
+.navbar a{
+    color: white;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 10px;
@@ -357,11 +371,20 @@ button {
 }
 
 .image_2 {
-    width: 116%;
+    width: 100%;
     float: left;
     padding-top: 50px;
     position: relative;
     text-align: center;
+}
+.start{
+    position: absolute;
+    left: -4.5rem;
+}
+.end{
+    position: absolute;
+    right: -.5rem;
+    top: 195rem;
 }
 .center{
     position: absolute;
@@ -383,25 +406,25 @@ button {
   }
   .img-1{
     position: absolute;
-    top: 120%;
+    top: 136%;
     left: 65%;
     transform: translate(-50%, -50%);
     }
     .img-2{
         position: absolute;
-        top: 118%;
+        top: 132%;
         left: 35%;
         transform: translate(-50%, -50%);
         }
         .img-4{
             position: absolute;
-            top: 120%;
-            left: 85%;
+            top: 139%;
+            left: 88%;
             transform: translate(-50%, -50%);
             }
             .img-5{
                 position: absolute;
-                top: 130%;
+                top: 146%;
                 left: 39%;
                 transform: translate(-50%, -50%);
                 }
@@ -467,6 +490,7 @@ button {
     text-transform: uppercase;
     text-align: center;
     margin-top: -5%;
+    margin-bottom: 30px;
 }
 
 .long_text{
@@ -487,6 +511,20 @@ button {
     text-align: center;
     padding-top: 40px;
 }
+
+.cont1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 38%;
+}
+.cont2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 86%;
+}
+
 
 .game_text {
     width: 100%;
@@ -598,7 +636,10 @@ button {
     border-radius: 20px;
     display: flow-root;
 }
-
+hr{
+    background-color: #fff;
+    width: 400px;
+}
 .quote_icon{
     width: 100%;
     float: left;
@@ -663,7 +704,7 @@ button {
     float: left;
     background-image: url(/images//Game/Group\ 9728.png) , url(/images/Home/Repeat\ Grid\ 1.png);
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 60px;
 }
 
 .image_6{
@@ -682,7 +723,7 @@ button {
 }
 
 .email-bt {
-    color: #000000;
+    color: #fff;
     width: 100%;
     height: 55px;
     font-size: 18px;
@@ -693,7 +734,7 @@ button {
 }
 
 .massage-bt {
-    color: #000000;
+    color: #fff;
     width: 100%;
     height: 80px;
     font-size: 18px;
@@ -701,6 +742,8 @@ button {
     background: transparent;
     border: 0px;
     border-bottom: 1px solid #888686;
+    text-transform: capitalize;
+
 }
 
 .send_btn {
@@ -872,9 +915,16 @@ button {
 }
 
 /* /////////////////////////////////////////////////////// */
-/* .main{
-    background-image: url(/images/Game/Group\ 9728.png);
-} */
+footer{
+    background-image: url(/images/features/Rectangle\ 139.png);
+}
+.i{
+/* position: absolute; */
+}
+.ii{
+    /* position: absolute; */
+
+}
 .first{
     height: 450px;
 }
@@ -882,7 +932,7 @@ button {
 .firsts{
     position: absolute;
     left: 90%;
-    top: 324%;
+    top: 248%;
     transform: translate(-50%, -50%);
     height: 550px;
 }
@@ -905,7 +955,7 @@ button {
 }
 .image_10 img{
     width: 100vw;
-    height: 640px;
+    height: 734px;
 }
 .header_section{
     background-image: url(/images/features/Rectangle\ 139.png);
@@ -917,10 +967,13 @@ button {
 }
 .fire {
     position: absolute;
-    top: 8.5rem;
-    left: 9rem;
-    width: 6rem;
-    height: 5rem;
+    top: 9rem;
+    left: 10.5rem;
+    width: 7rem;
+    height: 7rem;
+}
+.para{
+    font-size: 20px;
 }
 ul li{
     /* float: right; */
@@ -933,8 +986,9 @@ li:hover{
     letter-spacing: .5px;
 }
 .inp{
-    position: absolute;
-    top: 265px;
+    position: relative;
+    top: 52px;
+    left: -90px;
     z-index: 1;
 }
 .mobile{
@@ -978,13 +1032,36 @@ li:hover{
 }
 .mobile{
     width: 100%;
+    height: 52px;
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    font-size: 30px;
+    text-align: center;
+
+}
+.image_0{
+    position: absolute;
+    top: 44rem;
+    left: 80rem;
+}
+input{
+   
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    /* opacity:0; */
+    border: none;
+    outline: none;
+    color: #fff;
+
 }
 .log {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     position: absolute;
-    top: -2.5rem;
-    left: -1.2rem;
+    top: -3.5rem;
+    left: -2.2rem
 }
 .container1 img{
     height: 450px;
@@ -998,7 +1075,64 @@ li:hover{
     height: 600px;
     width: 290px;
 }
-/* Media Query */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the divs inside the footer */
+  footer div {
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 10px; */
+  }
+
+  /* Centering the second div */
+  .centered {
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+
+  /* Styling for the social media links */
+  .social-media a {
+    margin: 5px;
+    color: #555;
+    font-size: 30px;
+  }
+
+  /* Styling for the navbar */
+  .navbar a {
+    margin: 5px;
+    color: #555;
+    font-size: 20px;
+
+  }
+
+  /* Styling for the images */
+  .images img {
+    width: 400px;
+    height: 200px;
+    /* object-fit: cover; */
+    margin-left: -60px;
+  }
+  .final{
+    width: 250px;
+    height: 250px;
+    margin-left: -18rem;
+    margin-top: 6rem;
+    /* position: absolute; */
+  }
+
+  /* Responsive styles */
+  @media (max-width: 425px) {
+    footer div {
+      display: block;
+    }
+  }
+
+/*========================================== Media Query ==============================================*/
 
 @media screen and (max-width: 425px) and (min-width: 319px) {
     body{
@@ -1122,7 +1256,7 @@ li:hover{
         margin-top: 23%;
     }
     .two{
-        margin-left: 150px;
+        margin-left: 147px;
         margin-top: -17%;
     }
     .three{
