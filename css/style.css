@@ -1137,7 +1137,7 @@ footer {
 @media screen and (max-width: 425px) and (min-width: 319px) {
     body{
         width: 100vw;
-        overflow:hidden!important;
+        overflow-x:hidden!important;
     }
     .inp {
         width: 83%;
@@ -1373,6 +1373,8 @@ footer {
     }
     .image_0 img{
         width: 100px;
+        /* margin-left: -2rem; */
+        /* margin-top: -1rem; */
     }
     .cont2 {
         height: 200px;
